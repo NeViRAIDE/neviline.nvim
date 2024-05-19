@@ -1,5 +1,5 @@
----@alias NeviLineComponent fun(condition?: boolean):string Module component for NeviraideStatusLine.
----@alias NeviLineSeparator fun(symbol: string, size: integer, condition?: boolean):string Symbol which separate StatusLineComponents.
+---@alias NeviLineComponent fun(condition?: boolean):string Module component for NeviLine.
+---@alias NeviLineSeparator fun(symbol: string, size: integer, condition?: boolean):string Symbol which separate NeviLineComponents.
 
 ---@class NeviLineUtils<table>
 ---@field ignored fun():boolean Hide component if filetype in the list.
