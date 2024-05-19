@@ -1,1 +1,1 @@
-vim.opt.statusline = '%!v:lua.require("statusline").run()'
+vim.opt.statusline = '%!v:lua.require("neviline").run()'

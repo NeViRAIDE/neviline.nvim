@@ -1,5 +1,5 @@
-local component = require('neviraide-ui.statusline.components')
-local util = require('neviraide-ui.statusline.utils')
+local component = require('neviline.components')
+local util = require('neviline.utils')
 
 -- TODO: add validation for all module (to check errors)
 local function validate_module(module)
@@ -13,7 +13,7 @@ end
 
 local M = {}
 
-require('neviraide-ui.statusline.onclick')
+require('neviline.onclick')
 
 M.run = function()
   local modules = {

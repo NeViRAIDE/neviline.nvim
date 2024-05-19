@@ -1,6 +1,6 @@
 local i = require('neviraide-ui.icons.utils').icon
 
----@type StatusLineUtils
+---@type NeviLineUtils
 local M = {
   ignored = require('neviraide.utils.ignored').ignored,
 

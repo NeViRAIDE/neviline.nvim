@@ -1,6 +1,6 @@
 local icon = require('neviraide-ui.icons.utils').icon
 local utils = require('neviraide-ui.utils')
-local mode_color = require('neviraide-ui.statusline.utils').mode_color
+local mode_color = require('neviline.utils').mode_color
 
 -- TODO: add on click event for all components
 -- TODO: add run code component
