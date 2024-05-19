@@ -6,10 +6,10 @@ local mode_color = require('neviline.utils').mode_color
 -- TODO: add run code component
 -- FIX: for checkhealth filetype
 
----@type NeviraideStatusLine
+---@type NeviLine
 local M = {}
 
----@type StatusLineSeparator
+---@type NeviLineSeparator
 local function separator(symbol, size, condition)
   local mode = vim.api.nvim_get_mode().mode
   if condition then
