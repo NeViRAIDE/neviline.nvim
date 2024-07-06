@@ -1,4 +1,4 @@
-local icon = require('neviraide-ui.icons.utils').icon
+local icon = require('stigmata.utils').icon
 local utils = require('neviraide-ui.utils')
 local mode_color = require('neviline.utils').mode_color
 
